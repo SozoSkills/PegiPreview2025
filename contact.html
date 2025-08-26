@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Research - Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk2gXPocbd4H9Vn1I95LAz-7XbTagJIFU&callback=initMap" async defer></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+    <img src="https://images.squarespace-cdn.com/content/v1/6613e4918edfe05096c873b6/b684e841-860c-4953-b510-34d1513170d0/PEGISUS+LOGO+banner2.jpg?format=1500w" alt="PEGISUS Logo">
+</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="where-we-work.html">Where We Work</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact-content">
+            <h2>Let's Collaborate</h2>
+            <p class="section-description">Ready to unlock your business's full potential? Contact us today to discuss your research needs.</p>
+            <form id="contact-form" action="https://formspree.io/f/YOUR_UNIQUE_FORM_ID" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="form-status"></div>
+        </section>
+
+        <section id="locations">
+            <h2>Our Global Locations</h2>
+            <p class="section-description">Find us in our key research hubs around the world. We're always close to where innovation happens.</p>
+            <div id="map"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Quantum Research. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

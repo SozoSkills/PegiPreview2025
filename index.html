@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEGISUS - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div id="splash-screen">
+        <div class="splash-content">
+            <img src="https://images.squarespace-cdn.com/content/v1/6613e4918edfe05096c873b6/b684e841-860c-4953-b510-34d1513170d0/PEGISUS+LOGO+banner2.jpg?format=1500w" alt="PEGISUS Logo">
+        </div>
+    </div>
+
+    <header class="hero-container">
+        <nav>
+            <div class="logo">
+                <img src="https://images.squarespace-cdn.com/content/v1/6613e4918edfe05096c873b6/b684e841-860c-4953-b510-34d1513170d0/PEGISUS+LOGO+banner2.jpg?format=1500w" alt="PEGISUS Logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+               <li><a href="where-we-work.html">Where We Work</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="hero-content">
+            <h1>Empowering Youth, Transforming Futures.</h1>
+            <p class="tagline">Innovative research for substance use prevention, gender equity, and vocational growth in Southern Africa.</p>
+            <a href="contact.html" class="cta-button">Join Our Mission</a>
+            
+        </div>
+    </header>
+
+    <main>
+        
+        <section id="about-us">
+            <h2>Our Vision</h2>
+            <p class="section-description">At PEGISUS, we are dedicated to addressing critical challenges faced by young people in Zambia, Zimbabwe, and South Africa. We believe that by fostering healthy choices and promoting gender equity, we can unlock their full potential.</p>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>Focus on Youth</h3>
+                    <p>Over 60% of Africa's population are young people, making their well-being central to the continent's future.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Holistic Approach</h3>
+                    <p>We tackle substance use, gender beliefs, and employment opportunities to create lasting impact.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Regional Impact</h3>
+                    <p>Our work spans Zambia, Zimbabwe, and South Africa, fostering healthier communities.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="project-info" class="light-section">
+            <div class="project-content">
+                <h2>A Peer-Led Intervention for Youth Empowerment</h2>
+                <p>Integrating a peer group intervention for substance use and gender beliefs into vocational training programs in Zambia, Zimbabwe, and South Africa.</p>
+                <p>Young people are the future. In Africa, young people account for over 60% of the region’s population. But they face ongoing threats to their health and well-being due to a high burden of emerging infectious and non-communicable diseases, political and economic instabilities, and increasing inequities between the Global South and Global North.</p>
+                <p>To ensure a healthy and prosperous future, we are testing a multi-pronged approach with **PEGISUS**, which aims to help young people reduce unhealthy substance use, develop more flexible beliefs about gender, and increase their potential for employment.</p>
+                <a href="services.html" class="cta-button small-cta">Learn More About Our Approach</a>
+            </div>
+            <div class="project-image">
+                <img src="https://images.squarespace-cdn.com/content/v1/6613e4918edfe05096c873b6/6a5d8d6f-6461-4918-a763-0ab1d858287b/pexels-gatimu-m-1429881.jpg?format=1500w" alt="A group of young African people learning">
+            </div>
+        </section>
+
+        <section id="funding-partner">
+            <h3>PEGISUS is Funded by</h3>
+            <div class="funding-logo">
+                <img src="https://images.squarespace-cdn.com/content/v1/6613e4918edfe05096c873b6/fedf8ab5-ecb3-47a7-b822-647cf6e533c7/SOR4D_BrandingBox.png?format=1000w" alt="SOR4D Branding Box Logo">
+            </div>
+        </section>
+
+        <section id="call-to-action" class="light-section">
+            <h2>Ready to Make an Impact?</h2>
+            <p class="section-description">Partner with PEGISUS to support groundbreaking research and empower the next generation across Southern Africa.</p>
+            <a href="contact.html" class="cta-button">Get Involved</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 PEGISUS. All Rights Reserved.</p>
+    </footer>
+    
+<script>
+        window.addEventListener('load', () => {
+            const splashScreen = document.getElementById('splash-screen');
+            setTimeout(() => {
+                splashScreen.style.opacity = '0';
+                setTimeout(() => splashScreen.style.display = 'none', 1000); // Wait for fade out to complete
+            }, 4000); // 4 seconds total duration
+        });
+    </script>
+
+</body>
+</html>
